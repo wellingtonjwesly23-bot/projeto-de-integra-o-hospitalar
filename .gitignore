@@ -1,0 +1,6 @@
+
+hospital.db
+
+__pycache__/
+App/__pycache__/
+.vscode/
