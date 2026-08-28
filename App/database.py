@@ -44,7 +44,7 @@ def inicializar_banco():
     cursor.execute("DELETE FROM ZST_Setores WHERE ZST_ID = 1")
     cursor.execute("DELETE FROM ZEQ_Equipamentos WHERE ZEQ_ID = 1")
 
-    # Insere o Centro Rebouças (mencionado nas atribuições da vaga!)
+    # Insere o Centro Rebouças (Exemplo)
     cursor.execute('''
         INSERT INTO ZST_Setores (ZST_ID, ZST_NOME, ZST_LOCAL) 
         VALUES (1, 'Centro de Convenções Rebouças', 'Pavilhão Principal')
